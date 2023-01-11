@@ -1,0 +1,11 @@
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\obj\Debug\ReceiverUI.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\obj\Debug\ReceiverUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\obj\Debug\ReceiverUI.Properties.Resources.resources
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\obj\Debug\ReceiverUI.csproj.GenerateResource.cache
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\obj\Debug\ReceiverUI.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\bin\Debug\ReceiverUI.exe.config
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\bin\Debug\ReceiverUI.exe
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\bin\Debug\ReceiverUI.pdb
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\obj\Debug\ReceiverUI.Form1.resources
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\obj\Debug\ReceiverUI.exe
+C:\Users\manue\Desktop\Manuel\repos\BulmeRadio\ReceiverUI\ReceiverUI\obj\Debug\ReceiverUI.pdb
