@@ -108,7 +108,7 @@ namespace ReceiverUI
 
         void OnOnOffBtnClicked(object sender, EventArgs e)
         {
-            if (connected)
+            if (!connected)
             {
                 byte val;
                 if (onState)
@@ -116,21 +116,25 @@ namespace ReceiverUI
                 else
                     val = 0;
 
-                _wr.Write((byte)2);
-                _wr.Write((byte)onOffCmd);
-                _wr.Write((byte)val);
+                //_wr.Write((byte)2);
+                //_wr.Write((byte)onOffCmd);
+                //_wr.Write((byte)val);
+                //
+                //_wr.Flush();
 
-                _wr.Flush();
-
-                if (onState)
+                if (!onState)
                 {
-                    _onOffBtn.BackColor = Color.Green;
-                    _onOffBtn.Text = "On";
+                    _offLbl.BackColor = Color.Green;
+                    _offLbl.Text = "On";
+                    _onOffBtn.Text = "Turn Off";
+                    onState = true;
                 }
                 else
                 {
-                    _onOffBtn.BackColor = Color.Red;
-                    _onOffBtn.Text = "Off";
+                    _offLbl.BackColor = Color.Red;
+                    _offLbl.Text = "Off";
+                    _onOffBtn.Text = "Turn On";
+                    onState = false;
                 }
             }
         }

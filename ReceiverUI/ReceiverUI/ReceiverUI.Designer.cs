@@ -40,7 +40,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this._msgLbl = new System.Windows.Forms.Label();
             this._onOffBtn = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
+            this._offLbl = new System.Windows.Forms.Label();
             this.msgTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this._frequency)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._volume)).BeginInit();
@@ -93,7 +93,7 @@
             0,
             0});
             this._frequency.Name = "_frequency";
-            this._frequency.Size = new System.Drawing.Size(68, 22);
+            this._frequency.Size = new System.Drawing.Size(78, 22);
             this._frequency.TabIndex = 3;
             this._frequency.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this._frequency.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -116,7 +116,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(172, 50);
+            this.label2.Location = new System.Drawing.Point(182, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 16);
             this.label2.TabIndex = 5;
@@ -135,7 +135,7 @@
             // 
             this._volume.Location = new System.Drawing.Point(104, 75);
             this._volume.Name = "_volume";
-            this._volume.Size = new System.Drawing.Size(68, 22);
+            this._volume.Size = new System.Drawing.Size(78, 22);
             this._volume.TabIndex = 8;
             this._volume.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this._volume.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -149,7 +149,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(172, 77);
+            this.label4.Location = new System.Drawing.Point(182, 77);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(19, 16);
             this.label4.TabIndex = 9;
@@ -174,20 +174,20 @@
             this._onOffBtn.UseVisualStyleBackColor = true;
             this._onOffBtn.Click += new System.EventHandler(this.OnOnOffBtnClicked);
             // 
-            // label5
+            // _offLbl
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Red;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(109, 113);
-            this.label5.Name = "label5";
-            this.label5.Padding = new System.Windows.Forms.Padding(2);
-            this.label5.Size = new System.Drawing.Size(29, 22);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Off";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this._offLbl.AutoSize = true;
+            this._offLbl.BackColor = System.Drawing.Color.Red;
+            this._offLbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this._offLbl.Cursor = System.Windows.Forms.Cursors.Default;
+            this._offLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._offLbl.Location = new System.Drawing.Point(109, 113);
+            this._offLbl.Name = "_offLbl";
+            this._offLbl.Padding = new System.Windows.Forms.Padding(2);
+            this._offLbl.Size = new System.Drawing.Size(29, 22);
+            this._offLbl.TabIndex = 12;
+            this._offLbl.Text = "Off";
+            this._offLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // msgTimer
             // 
@@ -199,7 +199,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this._offLbl);
             this.Controls.Add(this._onOffBtn);
             this.Controls.Add(this._msgLbl);
             this.Controls.Add(this.label4);
@@ -233,7 +233,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label _msgLbl;
         private System.Windows.Forms.Button _onOffBtn;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label _offLbl;
         private System.Windows.Forms.Timer msgTimer;
     }
 }
