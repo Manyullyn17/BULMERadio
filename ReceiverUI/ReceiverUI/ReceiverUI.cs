@@ -108,7 +108,7 @@ namespace ReceiverUI
 
         void OnOnOffBtnClicked(object sender, EventArgs e)
         {
-            if (!connected)
+            if (connected)
             {
                 byte val;
                 if (onState)
@@ -116,11 +116,11 @@ namespace ReceiverUI
                 else
                     val = 0;
 
-                //_wr.Write((byte)2);
-                //_wr.Write((byte)onOffCmd);
-                //_wr.Write((byte)val);
-                //
-                //_wr.Flush();
+                _wr.Write((byte)2);
+                _wr.Write((byte)onOffCmd);
+                _wr.Write((byte)val);
+                
+                _wr.Flush();
 
                 if (!onState)
                 {
